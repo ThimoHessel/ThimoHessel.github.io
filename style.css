@@ -361,7 +361,7 @@ p {
 	justify-content: center;
 	flex-direction: column;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	color: white;
+	color: grey;
 }
 #projects .project-info h1 {
 	font-size: 4rem;
