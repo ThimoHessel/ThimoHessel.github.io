@@ -10,7 +10,7 @@ hamburger.addEventListener('click', () => {
 
 document.addEventListener('scroll', () => {
 	var scroll_position = window.scrollY;
-	if (scroll_position > 250) {
+	if (scroll_position > 500) {
 		header.style.backgroundColor = '#29323c';
 	} else {
 		header.style.backgroundColor = 'transparent';
@@ -23,6 +23,7 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+<<<<<<< HEAD
 
 function scrollappear(){
 	var sectiontitle1 = document.querySelector('.section-title1');
@@ -36,3 +37,5 @@ function scrollappear(){
 
 }
 	window.addEventListener('scroll', scrollappear);
+=======
+>>>>>>> d4bdfdbc1e91615af05bbc13fe41e9e81f62445b
