@@ -23,7 +23,6 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
-<<<<<<< HEAD
 
 function scrollappear(){
 	var sectiontitle1 = document.querySelector('.section-title1');
@@ -37,5 +36,3 @@ function scrollappear(){
 
 }
 	window.addEventListener('scroll', scrollappear);
-=======
->>>>>>> d4bdfdbc1e91615af05bbc13fe41e9e81f62445b
