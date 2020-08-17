@@ -23,3 +23,16 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+function scrollappear(){
+	var sectiontitle1 = document.querySelector('.section-title1');
+	var sectionposition = sectiontitle1.getBoundingClientRect().top;
+	var screenposition = window.innerHeight / 1.2
+
+	if(sectionposition < screenposition){
+		sectiontitle1.classList.add('section1-appear')
+		
+	}
+
+}
+	window.addEventListener('scroll', scrollappear);

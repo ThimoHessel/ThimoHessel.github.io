@@ -44,7 +44,26 @@ p {
 .section-title span {
 	color: crimson;
 }
+.section-title1 {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	text-align: center;
+	opacity: 0;
+	transform: translateY();
+	transition: 0.5s all ease-in-out;
+}
 
+.section1-appear{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.section-title1 span {
+	color: crimson;
+}
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
