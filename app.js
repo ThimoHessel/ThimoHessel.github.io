@@ -27,7 +27,7 @@ menu_item.forEach((item) => {
 function scrollappear(){
 	var sectiontitle1 = document.querySelector('.section-title1');
 	var sectionposition = sectiontitle1.getBoundingClientRect().top;
-	var screenposition = window.innerHeight / 1.2
+	var screenposition = window.innerHeight / 1.5
 
 	if(sectionposition < screenposition){
 		sectiontitle1.classList.add('section1-appear')
