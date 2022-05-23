@@ -1,0 +1,44 @@
+/* ==========================================================================
+	#pjPollContainerWrapper
+========================================================================== */
+#pjWrapper.pjPollContainerWrapper { }
+
+/* ==========================================================================
+	#panel
+========================================================================== */
+#pjWrapper .pjPollContainer .panel-default { border-color: #7d8381; background: #7d8381; }
+
+/* ==========================================================================
+	#pjPollHeading
+========================================================================== */
+#pjWrapper .pjPollContainer .pjPollHeading { background: #7d8381; }
+#pjWrapper .pjPollHeading .pjPollTitle { color: #f2f3ee; text-transform: uppercase; }
+
+/* ==========================================================================
+	#pjPollBody
+========================================================================== */
+#pjWrapper .pjPollContainer .pjPollBody { background: #f3f5f4; }
+
+/* ==========================================================================
+	#pjPollAnswers
+========================================================================== */
+#pjWrapper .pjPollAnswer { color: #545859; }
+#pjWrapper .pjPollAnswer:hover,
+#pjWrapper .pjPollContainer .pjPollAnswerChecked { color: #559d87; }
+#pjWrapper .pjPollContainer .pjPollAnswerChecked { font-weight: bold; }
+
+/* ==========================================================================
+	#pjPollBtn
+========================================================================== */
+#pjWrapper .pjPollBtn { border: 0; background: none; color: #1ec290; font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pjPollBtn:hover { border: 0; background: none; color: #1eaf84; }
+
+#pjWrapper .pjPollBtnPrimary { border: 2px solid #1eaf84; background: #1ec290; color: #fff; font-weight: normal; }
+#pjWrapper .pjPollBtnPrimary:hover { border: 2px solid #1eaf84; background: #1eaf84; color: #fff; }
+
+/* ==========================================================================
+	#pjPollBodyResults
+========================================================================== */
+#pjWrapper .pjPollBodyResults p { color: #545859; }
+
+#pjWrapper .pjPollResult .progress-bar { background: #559d87; }

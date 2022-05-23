@@ -1,0 +1,76 @@
+/* ==========================================================================
+	#pjPollContainerWrapper
+========================================================================== */
+#pjWrapper.pjPollContainerWrapper { }
+
+/* ==========================================================================
+	#pjPollHeading
+========================================================================== */
+#pjWrapper .pjPollContainer .pjPollHeading { background: #f7f7f7; }
+#pjWrapper .pjPollHeading .pjPollTitle { color: #1b6aac; font-weight: normal; text-transform: uppercase; }
+
+/* ==========================================================================
+	#pjPollBody
+========================================================================== */
+#pjWrapper .pjPollContainer .pjPollBody { background: #fff; }
+
+/* ==========================================================================
+	#pjPollAnswers
+========================================================================== */
+#pjWrapper .pjPollAnswer { color: #343839; }
+#pjWrapper .pjPollAnswer:hover,
+#pjWrapper .pjPollContainer .pjPollAnswerChecked { color: #54af30; }
+#pjWrapper .pjPollContainer .pjPollAnswerChecked { font-weight: bold; }
+
+/* ==========================================================================
+	#pjPollBtn
+========================================================================== */
+#pjWrapper .pjPollBtn { border-color: #bfbbbc; color: #1b6aac; font-weight: bold; 
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(249,247,248,1) 60%, rgba(246,245,243,1) 70%, rgba(248,244,243,1) 80%, rgba(245,241,240,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(60%,rgba(249,247,248,1)), color-stop(70%,rgba(246,245,243,1)), color-stop(80%,rgba(248,244,243,1)), color-stop(100%,rgba(245,241,240,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(249,247,248,1) 60%,rgba(246,245,243,1) 70%,rgba(248,244,243,1) 80%,rgba(245,241,240,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(249,247,248,1) 60%,rgba(246,245,243,1) 70%,rgba(248,244,243,1) 80%,rgba(245,241,240,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(249,247,248,1) 60%,rgba(246,245,243,1) 70%,rgba(248,244,243,1) 80%,rgba(245,241,240,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(249,247,248,1) 60%,rgba(246,245,243,1) 70%,rgba(248,244,243,1) 80%,rgba(245,241,240,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f1f0',GradientType=0 );
+}
+
+#pjWrapper .pjPollBtn:hover { border-color: #bfbbbc; color: #1b6aac; 
+	background: rgb(245,241,240);
+	background: -moz-linear-gradient(top,  rgba(245,241,240,1) 0%, rgba(248,244,243,1) 20%, rgba(246,245,243,1) 30%, rgba(249,247,248,1) 40%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,241,240,1)), color-stop(20%,rgba(248,244,243,1)), color-stop(30%,rgba(246,245,243,1)), color-stop(40%,rgba(249,247,248,1)), color-stop(100%,rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top,  rgba(245,241,240,1) 0%,rgba(248,244,243,1) 20%,rgba(246,245,243,1) 30%,rgba(249,247,248,1) 40%,rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top,  rgba(245,241,240,1) 0%,rgba(248,244,243,1) 20%,rgba(246,245,243,1) 30%,rgba(249,247,248,1) 40%,rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(245,241,240,1) 0%,rgba(248,244,243,1) 20%,rgba(246,245,243,1) 30%,rgba(249,247,248,1) 40%,rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom,  rgba(245,241,240,1) 0%,rgba(248,244,243,1) 20%,rgba(246,245,243,1) 30%,rgba(249,247,248,1) 40%,rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f1f0', endColorstr='#ffffff',GradientType=0 );
+}
+
+#pjWrapper .pjPollBtnPrimary { border-color: #1b6aac; color: #fff; 
+	background: rgb(64,152,226);
+	background: -moz-linear-gradient(top,  rgba(64,152,226,1) 0%, rgba(53,140,217,1) 60%, rgba(52,140,212,1) 67%, rgba(50,137,214,1) 77%, rgba(47,135,209,1) 97%, rgba(44,134,210,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(64,152,226,1)), color-stop(60%,rgba(53,140,217,1)), color-stop(67%,rgba(52,140,212,1)), color-stop(77%,rgba(50,137,214,1)), color-stop(97%,rgba(47,135,209,1)), color-stop(100%,rgba(44,134,210,1)));
+	background: -webkit-linear-gradient(top,  rgba(64,152,226,1) 0%,rgba(53,140,217,1) 60%,rgba(52,140,212,1) 67%,rgba(50,137,214,1) 77%,rgba(47,135,209,1) 97%,rgba(44,134,210,1) 100%);
+	background: -o-linear-gradient(top,  rgba(64,152,226,1) 0%,rgba(53,140,217,1) 60%,rgba(52,140,212,1) 67%,rgba(50,137,214,1) 77%,rgba(47,135,209,1) 97%,rgba(44,134,210,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(64,152,226,1) 0%,rgba(53,140,217,1) 60%,rgba(52,140,212,1) 67%,rgba(50,137,214,1) 77%,rgba(47,135,209,1) 97%,rgba(44,134,210,1) 100%);
+	background: linear-gradient(to bottom,  rgba(64,152,226,1) 0%,rgba(53,140,217,1) 60%,rgba(52,140,212,1) 67%,rgba(50,137,214,1) 77%,rgba(47,135,209,1) 97%,rgba(44,134,210,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4098e2', endColorstr='#2c86d2',GradientType=0 );
+}
+#pjWrapper .pjPollBtnPrimary:hover { border-color: #1b6aac; color: #fff; 
+	background: rgb(44,134,210);
+	background: -moz-linear-gradient(top,  rgba(44,134,210,1) 0%, rgba(47,135,209,1) 3%, rgba(50,137,214,1) 23%, rgba(52,140,212,1) 33%, rgba(53,140,217,1) 40%, rgba(64,152,226,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(44,134,210,1)), color-stop(3%,rgba(47,135,209,1)), color-stop(23%,rgba(50,137,214,1)), color-stop(33%,rgba(52,140,212,1)), color-stop(40%,rgba(53,140,217,1)), color-stop(100%,rgba(64,152,226,1)));
+	background: -webkit-linear-gradient(top,  rgba(44,134,210,1) 0%,rgba(47,135,209,1) 3%,rgba(50,137,214,1) 23%,rgba(52,140,212,1) 33%,rgba(53,140,217,1) 40%,rgba(64,152,226,1) 100%);
+	background: -o-linear-gradient(top,  rgba(44,134,210,1) 0%,rgba(47,135,209,1) 3%,rgba(50,137,214,1) 23%,rgba(52,140,212,1) 33%,rgba(53,140,217,1) 40%,rgba(64,152,226,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(44,134,210,1) 0%,rgba(47,135,209,1) 3%,rgba(50,137,214,1) 23%,rgba(52,140,212,1) 33%,rgba(53,140,217,1) 40%,rgba(64,152,226,1) 100%);
+	background: linear-gradient(to bottom,  rgba(44,134,210,1) 0%,rgba(47,135,209,1) 3%,rgba(50,137,214,1) 23%,rgba(52,140,212,1) 33%,rgba(53,140,217,1) 40%,rgba(64,152,226,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c86d2', endColorstr='#4098e2',GradientType=0 );
+}
+
+/* ==========================================================================
+	#pjPollBodyResults
+========================================================================== */
+#pjWrapper .pjPollBodyResults p { color: #343839; }
+
+#pjWrapper .pjPollResult .progress-bar { background: #54af30; }

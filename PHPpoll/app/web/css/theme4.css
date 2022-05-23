@@ -1,0 +1,39 @@
+/* ==========================================================================
+	#pjPollContainerWrapper
+========================================================================== */
+#pjWrapper.pjPollContainerWrapper { }
+
+/* ==========================================================================
+	#pjPollHeading
+========================================================================== */
+#pjWrapper .pjPollContainer .pjPollHeading { border-bottom: 0; background: #f9f8f3; }
+#pjWrapper .pjPollHeading .pjPollTitle { color: #584034; font-weight: bold; text-transform: uppercase; }
+
+/* ==========================================================================
+	#pjPollBody
+========================================================================== */
+#pjWrapper .pjPollContainer .pjPollBody { background: #f9f8f3; }
+
+/* ==========================================================================
+	#pjPollAnswers
+========================================================================== */
+#pjWrapper .pjPollAnswer { color: #4e4e4e; }
+#pjWrapper .pjPollAnswer:hover,
+#pjWrapper .pjPollContainer .pjPollAnswerChecked { color: #bd5726; }
+#pjWrapper .pjPollContainer .pjPollAnswerChecked { font-weight: bold; }
+
+/* ==========================================================================
+	#pjPollBtn
+========================================================================== */
+#pjWrapper .pjPollBtn { border-color: #bd5726; background: #fff; color: #bd5726; text-transform: uppercase; }
+#pjWrapper .pjPollBtn:hover { border-color: #bd5726; background: #d66e3b; color: #fff; }
+
+#pjWrapper .pjPollBtnPrimary { border-color: #bd5726; background: #d66e3b; color: #fff; }
+#pjWrapper .pjPollBtnPrimary:hover { border-color: #bd5726; background: #bd5726; color: #fff; }
+
+/* ==========================================================================
+	#pjPollBodyResults
+========================================================================== */
+#pjWrapper .pjPollBodyResults p { color: #4e4e4e; }
+
+#pjWrapper .pjPollResult .progress-bar { background: #bd5726; }
