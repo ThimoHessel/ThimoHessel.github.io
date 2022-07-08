@@ -328,10 +328,7 @@ p {
 	opacity: .9;
 	z-index: -1;
 }
-#services .service-bottom .icon {
-	
-	margin-bottom: 20px;
-}
+
 #services .service-item h2 {
 	font-size: 2rem;
 	color: white;
